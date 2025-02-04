@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-________ myString(_____________________){
-	_______ = new ____________;    
-	for(int i = 0; i < N;i++) ____________ = 'A'+i;
-	__________ = 0;
+void myString(char *&p,int x){
+	p = new char[x+1];    
+	for(int i = 0; i < x;i++) p[i]= 'A'+i;
+	p=0;
 }
 
 int main(){
